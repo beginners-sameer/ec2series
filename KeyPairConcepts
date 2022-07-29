@@ -1,0 +1,29 @@
+Cryptography - secure information and apply some mathematics technique with some algorithms to txer messages so it can hard to decipher
+Encryption - ordinary text to cipher text
+Decryption - Cipher text to Ordinary text
+
+Cryptograpy Life cycle:
+Plaintext -> Encryption -> ciphertext -> Decryption -> Plaintext
+
+Types of Cryptography:
+
+single key or symmetric  - same key used to encrypt and decrypt - ex: AES
+
+Symmetric vs Asymmetric:
+sym =  plaintext -> secret key -> ciphertext -> same secret key -> plaintext
+Asym = plaintext -> PubKeyEnc -> ciphertext -> PriKeyEnc -> plaintext
+
+PublicKey/Asym :
+      Pair of Keys
+      public key to encrypt
+      private key to decrypt
+      Ex: RSA
+        ECDSA
+        DS
+
+AWS EC2 Key Pair:
+      KP = Public + Private Key Pair
+      public key will be stored on your ec2 instance
+      private key will be downloaded/saved by you when you create an instance
+      
+      
